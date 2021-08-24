@@ -213,6 +213,15 @@ From: mkandes/naked-singularity:ubuntu-18.04-cuda-11.2-openmpi-4.0.5
     pip3 install jupyterlab
     pip3 install --upgrade --force jupyter-console
 
+    # Install xarray
+    pip3 install xarray
+
+    # Install gym
+    pip3 install gym
+    
+    # Install ray
+    pip3 install https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-2.0.0.dev0-cp36-cp36m-manylinux2014_x86_64.whl   
+
     # Cleanup
     apt-get -y autoremove --purge
     apt-get -y clean
